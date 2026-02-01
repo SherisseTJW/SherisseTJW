@@ -1,10 +1,18 @@
 export default function Hero() {
     return (
-      <section
-        id="hero"
+      <section id="hero"
         className="px-10 w-full flex gap-12 flex-col lg:flex-row 
                    justify-center items-center align-center mt-40 
                    mb-16 lg:mt-10 max-w-5xl mx-auto lg:gap-0 h-[80vh]">
+
+				{/* Side image */}
+        <div className="flex-1">
+          <img src=
+  "../assets/images/my-head-hurts_psyduck.png"
+               alt="Hello.svg"
+               className="w-full h-full bg-cover"/>
+        </div>
+
         <div className="flex-1 flex flex-col justify-center items-center gap-5">
           <div>
             <h4 className="text-center text-xl font-bold">
@@ -17,14 +25,6 @@ export default function Hero() {
           <p className="text-center">
 						I'm Sherisse Tan Jing Wen!
           </p>
-        </div>
-
-				{/* Side image */}
-        <div className="flex-1">
-          <img src=
-  "https://media.geeksforgeeks.org/gfg-gg-logo.svg"
-               alt="Hello.svg"
-               className="w-full h-full bg-cover"/>
         </div>
       </section>
     );
