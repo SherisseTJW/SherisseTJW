@@ -8,7 +8,7 @@ export default function Hero() {
 				{/* Side image */}
         <div className="flex-1">
           <img src=
-  "../assets/images/my-head-hurts_psyduck.png"
+  "./assets/images/my-head-hurts_psyduck.png"
                alt="Hello.svg"
                className="w-full h-full bg-cover"/>
         </div>

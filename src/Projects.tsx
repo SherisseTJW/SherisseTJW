@@ -14,7 +14,7 @@ export default function Projects() {
                 <div className="w-80 rounded">
                     <a href= "https://github.com/SherisseTJW/raytracingInAMonth/" className="w-full h-full">
                         <img src=
-	"../assets/images/final_week_render.png"
+	"./assets/images/final_week_render.png"
                              alt="Project 1"
                              className="w-full h-full 
                                         bg-cover rounded"/>
