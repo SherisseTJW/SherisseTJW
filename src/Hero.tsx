@@ -1,3 +1,5 @@
+import psyduck from './assets/images/psyduck.png'
+
 export default function Hero() {
     return (
       <section id="hero"
@@ -7,9 +9,8 @@ export default function Hero() {
 
 				{/* Side image */}
         <div className="flex-1">
-          <img src=
-  "./assets/images/my-head-hurts_psyduck.png"
-               alt="Hello.svg"
+          <img src= {psyduck}
+               alt="Profile Photo (My head hurts - Psyduck)"
                className="w-full h-full bg-cover"/>
         </div>
 

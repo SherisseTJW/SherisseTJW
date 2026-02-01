@@ -1,3 +1,5 @@
+import final_week_render from './assets/images/final_week_render.png'
+
 export default function Projects() {
     return (
         <section id="projects"
@@ -13,9 +15,7 @@ export default function Projects() {
                             hover:shadow-xl hover:scale-[102%] w-full">
                 <div className="w-80 rounded">
                     <a href= "https://github.com/SherisseTJW/raytracingInAMonth/" className="w-full h-full">
-                        <img src=
-	"./assets/images/final_week_render.png"
-                             alt="Project 1"
+                        <img src={final_week_render} alt="Project 1"
                              className="w-full h-full 
                                         bg-cover rounded"/>
                     </a>
