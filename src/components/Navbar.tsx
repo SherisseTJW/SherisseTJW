@@ -22,6 +22,14 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:underline "
+                            href="projects">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
+                                      transition rounded hover:underline "
                             href="#resources">
                             Resources
                         </a>

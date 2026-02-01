@@ -15,9 +15,11 @@ export default function Hero() {
             </h2>
           </div>
           <p className="text-center">
-            I am your friendly neighbourhood osm developer...
+						I'm Sherisse Tan Jing Wen!
           </p>
         </div>
+
+				{/* Side image */}
         <div className="flex-1">
           <img src=
   "https://media.geeksforgeeks.org/gfg-gg-logo.svg"
